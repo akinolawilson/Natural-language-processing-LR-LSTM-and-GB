@@ -14,12 +14,14 @@ The data is decomposed into two subsets, the auxiliary and textual components. T
 - Light gradient boosting
 - Ordered categorical graident boosting
 <br>
-The textual component is first modelled using a classical statistical model, a logistic regressor combined with a Gaussian radial basis function expansion of the feature space. 3 different textual parameterisations are trial; unigram, bigram and trigram tokenisations. To improve upon the model, three deep networks that utilise the entire dataset are built. The novel attention mechanism is applied in the most complex model, leading to the most desirable results. 
+The textual component is first modelled using a classical statistical model, a logistic regressor combined with a Gaussian radial basis function expansion of the feature space. 3 different textual parameterisations are trial; unigram, bigram and trigram tokenisations. To improve upon the model, three deep networks that utilise the entire dataset are built. The novel attention mechanism is applied in the most complex model, leading to the most desirable results.
+<br>
 ### Textual data
 - Gaussian radial basis expansion logistic regressor
 - Convolutional contiunous bag of words & auxilliary categorical data embeddding concatenated network
 - Long short-term memory contiunous bag of words & auxilliary categorical data embeddding concatenated network
 - Bidirectional long short-term memory with attention (Bahdanau) contiunous bag of words & auxilliary categorical data embeddding concatenated network
+<br>
 _________________________________________________________________________________________________________________________________________________________________________________
 ## Future work
 
