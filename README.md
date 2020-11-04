@@ -9,12 +9,10 @@ The data is decomposed into two subsets, the auxiliary and textual components. T
 <br>
 ___________________________________________________________________________________________________________________________________________________________________________________
 ### Model architectures
-<br><br>
 ## Auxiliary data
 - Extreme gradient boosting 
 - Light gradient boosting
 - Ordered categorical graident boosting
-<br>
 ## Textual data
 - Gaussian radial basis expansion logistic regressor
 - Convolutional contiunous bag of words & auxilliary categorical data embeddding concatenated network
