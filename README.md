@@ -25,7 +25,6 @@ The textual component is first modelled using a classical statistical model, a l
 _________________________________________________________________________________________________________________________________________________________________________________
 
 ## Future work
-
 Explainability is key during the application of sentiment analysis in a business environment. It enables informed decision making with respect to the data anaylsis and it's interpretation. A variational autoencoder trained on the textual information can result in such explainability. To achieve this, the collection of attributes described at the start of the Data_exploration_and_preprocessing.ipynb need to have their relative position in the tokenized extracts tag. These will enable a variational autoencoder to learn sentiment about the given attributes.  
 
 
