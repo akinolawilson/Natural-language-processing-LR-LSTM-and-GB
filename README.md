@@ -1,5 +1,5 @@
 # NLP and sentiment analysis: Mobile phone data reviews 
-___________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
 ## File content
 This repository contains the notebooks that process, transform and model a dataset based on mobile phone reviews, sourced from [here](https://www.kaggle.com/masaladata/14-million-cell-phone-reviews). Three different modelling strategies are applied to the dataset in order to predict the sentiment of the review data and extract business intelligence (BI) from the data structure. 
 <br><br>
@@ -12,7 +12,7 @@ The data is decomposed into two subsets, the auxiliary and textual components. T
 ### Auxiliary data
 - Extreme gradient boosting 
 - Light gradient boosting
-- Ordered categorical graident boosting
+- Ordered categorical gradient boosting
 <br>
 The textual component is first modelled using a classical statistical model, a logistic regressor combined with a Gaussian radial basis function expansion of the feature space. 3 different textual parameterisations are trial; unigram, bigram and trigram tokenisations. To improve upon the model, three deep networks that utilise the entire dataset are built. The novel attention mechanism is applied in the most complex model, leading to the most desirable results.
 
@@ -23,6 +23,9 @@ The textual component is first modelled using a classical statistical model, a l
 - Bidirectional long short-term memory with attention (Bahdanau) contiunous bag of words & auxilliary categorical data embeddding concatenated network
 <br>
 _________________________________________________________________________________________________________________________________________________________________________________
+
 ## Future work
 
-In the domain of sentiment analysis in a business environment, explainability is key such that decision making respect to the data anaylsis can be made fruitfully. A variational autoencoder trained on the textual information can result in such explainability.
+Explainability is key during the application of sentiment analysis in a business environment. It enables informed decision making with respect to the data anaylsis and it's interpretation. A variational autoencoder trained on the textual information can result in such explainability. To achieve this, the collection of attributes described at the start of the Data_exploration_and_preprocessing.ipynb need to have their relative position in the tokenized extracts tag. These will enable a variational autoencoder to learn sentiment about the given attributes.  
+
+
